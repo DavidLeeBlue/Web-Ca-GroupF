@@ -6,7 +6,7 @@ Welcome to the Web Design Project for Group F! 🚀
 
 This project is a collaborative effort by Group F to showcase our web design skills and create an impressive online presence.  We aim to utilize our knowledge of HTML, CSS, JavaScript, jQuery, and Bootstrap to develop a user-friendly, visually appealing, and responsive website. 
 
-## Team Members 🤝 💪
+## Team Members 🤝 
 
 * 23101806 😎
 * 23136774 😎
