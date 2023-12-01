@@ -8,8 +8,8 @@ This project is a collaborative effort by Group F to showcase our web design ski
 
 ## Team Members 🤝 
 
-* 23101806 😎
-* 23136774 😎
+* 23101806 
+* 23136774 
 
 ## Technologies Used ⚡
 
