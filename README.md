@@ -25,14 +25,14 @@ The primary technologies used in this project include:
 
 Our primary goals for this project are:
 
-* To create a user-friendly website that is easy to navigate and interact with. 🚶‍♀️🚶‍♂️🚶‍♀️🚶‍♂️
-* To design a visually appealing website that is aesthetically pleasing and engaging. 👀👀👀
-* To develop a responsive website that adapts seamlessly to different screen sizes and devices. 📱💻📺
+* To create a user-friendly website that is easy to navigate and interact with. 🚶‍♀
+* To design a visually appealing website that is aesthetically pleasing and engaging. 
+* To develop a responsive website that adapts seamlessly to different screen sizes and devices. 
 
-## Expectations 🤩🏆🏆
+## Expectations 🏆🏆
 
 We are excited to embark on this journey and create an outstanding web design project. 🎢🚌🚋 We expect each team member to contribute actively, share ideas, and work collaboratively to achieve our project goals.  We are committed to learning from each other and producing a high-quality website that reflects our team's skills and dedication. 
 
 ## Let's Build Something Awesome! 🎆
 
-Together, we can transform our vision into reality and create a web design project that truly shines! ✨💫🌟
+Together, we can transform our vision into reality and create a web design project that truly shines! ✨
