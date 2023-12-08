@@ -22,32 +22,17 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- What will be shown on webpage -->
-                <a class="navbar-brand" href="./index.html">Book-Shop</a>
+                <a class="navbar-brand" href="./index.html">Project name</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <form class="navbar-form navbar-right">
 
+                    <a class="navbar-brand1" href="#">Project name</a>
                     <div class="form-group">
-                        <a class="navbar-brand1" href="./register.html">Register</a>
-                        <!-- <a class="navbar-brand1" href="./register.html">contact us</a> -->
-                        <!-- <a class="navbar-brand1" href="#">Project name</a> -->
+                        <a class="navbar-brand1" href="#">Project name</a>
                     </div>
                     <div class="form-group">
-                        <a class="navbar-brand1" href="./product.html">Product</a>
-                    </div>
-                    <div class="form-group">
-                        <a class="navbar-brand1" href="./category.html">Category</a>
-                    </div>
-                    <div class="form-group">
-                        <div class="dropdown">
-                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Pages
-                                <span class="caret"></span></button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">HTML</a></li>
-                                <li><a href="#">CSS</a></li>
-                                <li><a href="#">JavaScript</a></li>
-                            </ul>
-                        </div>
+                        <a class="navbar-brand1" href="#">Project name</a>
                     </div>
                     <button type="submit" class="btn btn-success">Sign in</button>
                 </form>
@@ -72,25 +57,19 @@
 
 
         <h1>Register Account</h1>
-
-
-
-         
-         <form class="form-horizontal" role="form" action="#">
-
-            
+        <form class="form-horizontal" role="form" action="# ">
             <!-- Input - Enter First Name -->
             <div class="form-group">
-                <label for="fname" class="required control-label col-md-2">First Name:</label>
+                <label for="fname" class="control-label col-md-2">First Name:</label>
                 <div class="col-md-4">
-                    <input type="text" id="fname" class="form-control" placeholder="Please entre First Name" required="required">
+                    <input type="text" id="fname" class="form-control" placeholder="Please entre First Name">
                 </div>
             </div>
             <!-- Input - Enter Last Name -->
             <div class="form-group">
-                <label for="lname" class="required control-label col-md-2">Last Name:</label>
+                <label for="lname" class="control-label col-md-2">Last Name:</label>
                 <div class="col-md-4">
-                    <input type="text" id="lname" class="form-control" placeholder="Please entre Last Name" required="required">
+                    <input type="text" id="lname" class="form-control" placeholder="Please entre Last Name">
                 </div>
             </div>
             <!-- Checkbox - Choose Hobby -->
@@ -110,10 +89,10 @@
                 <label for="" class="control-label col-md-2">City:</label>
                 <div class="col-md-4">
                     <select class="form-control">
-                        <option value="">Dublin</option>
-                        <option value="">Cork</option>
-                        <option value="">Limerick</option>
-                        <option value="">Galway</option>
+                        <option value="">1111</option>
+                        <option value="">2111</option>
+                        <option value="">1111</option>
+                        <option value="">1111</option>
                     </select>
                 </div>
             </div>
@@ -121,7 +100,7 @@
             <div class="form-group">
                 <label for="introduce" class="control-label col-md-2">Introduce</label>
                 <div class="col-md-4">
-                    <textarea name="" id="introduce" class="form-control"></textarea>
+                    <textarea name="" id="introduce" class="form-control"  required></textarea>
                 </div>
             </div>
             <!-- Radio - Choose sex -->
@@ -138,16 +117,16 @@
             </div>
             <!-- Input - Enter Password -->
             <div class="form-group">
-                <label for="fname" class="required control-label col-md-2">Password:</label>
+                <label for="fname" class="control-label col-md-2">Password:</label>
                 <div class="col-md-4">
-                    <input type="password" id="fname" class="form-control" placeholder="Please entre Password" required="required">
+                    <input type="password" id="fname" class="form-control" placeholder="Please entre Password">
                 </div>
             </div>
-            <!-- Input - Confirm Password(Again)-->
+            <!-- Input - Confirm Password -->
             <div class="form-group">
-                <label for="fname" class="required control-label col-md-2">Password:</label>
+                <label for="fname" class="control-label col-md-2">Password:</label>
                 <div class="col-md-4">
-                    <input type="password" id="fname" class="form-control" placeholder="Please confirm Password" required="required">
+                    <input type="password" id="fname" class="form-control" placeholder="Please confirm Password">
                 </div>
             </div>
 
@@ -156,11 +135,10 @@
             <div class="form-group">
                 <!-- <label for="" class="control-label col-md-2"></label> -->
                 <div class="col-md-4 col-md-offset-5">
-                    <!-- <button class="btn btn-success">Submit</button> -->
                     <button class="btn btn-success" type="submit">Submit</button>
+
                 </div>
             </div>
-        </form>
     </div>
 
 
@@ -221,6 +199,60 @@
 
 
 
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4 position-relative">
+            <label for="validationTooltip01" class="form-label">First name</label>
+            <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+            <div class="valid-tooltip">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-4 position-relative">
+            <label for="validationTooltip02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+            <div class="valid-tooltip">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-4 position-relative">
+            <label for="validationTooltipUsername" class="form-label">Username</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                <input type="text" class="form-control" id="validationTooltipUsername"
+                    aria-describedby="validationTooltipUsernamePrepend" required>
+                <div class="invalid-tooltip">
+                    Please choose a unique and valid username.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 position-relative">
+            <label for="validationTooltip03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationTooltip03" required>
+            <div class="invalid-tooltip">
+                Please provide a valid city.
+            </div>
+        </div>
+        <div class="col-md-3 position-relative">
+            <label for="validationTooltip04" class="form-label">State</label>
+            <select class="form-select" id="validationTooltip04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+            </select>
+            <div class="invalid-tooltip">
+                Please select a valid state.
+            </div>
+        </div>
+        <div class="col-md-3 position-relative">
+            <label for="validationTooltip05" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="validationTooltip05" required>
+            <div class="invalid-tooltip">
+                Please provide a valid zip.
+            </div>
+        </div>
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+    </form>
 
 
 

@@ -7,8 +7,9 @@
     background-color: rgb(153, 0, 255);
     /* height: 100px; */
 }
+
 /* cover style in bootstrap */
-.navbar{
+.navbar {
     border-radius: 0px;
     margin-bottom: 0px;
 }
@@ -20,45 +21,58 @@
 
 #banner {
     background-color: rgb(0, 255, 55);
-    height: 300px;
+    /* height: 300px; */
+}
+.item img{
+    height: 500px;
 }
 
-#menu-left{
+#menu-left {
     height: 200px;
     background-color: yellow;
 }
-#product-right{
+
+#product-right {
     height: 200px;
     background-color: pink;
 }
-#product-image{
+
+#product-image {
     /* height: 200px; */
     background-color: rgb(197, 255, 192);
 
 }
-#product-title{
+
+#product-title {
     /* height: 200px; */
     background-color: rgb(211, 20, 185);
 
 }
-#product-description{
+
+#product-description {
     height: 200px;
     background-color: rgb(20, 33, 211);
 
 }
-#category-menu1{
+
+#category-menu1 {
     /* height: 200px; */
     background-color: rgb(20, 211, 68);
 
 }
-#category-products{
+
+#category-products {
     /* height: 200px; */
     background-color: rgb(138, 18, 102);
 
 }
 
 
-
+/* Adding asterisk to required fields  */
+.form-horizontal .required.control-label:after { 
+    content: "*";
+    color: red;
+}
 
 
 
@@ -81,9 +95,10 @@ footer {
     background-color: #d40000;
     border-top: 1px solid #ddd;
     color: #e2e2e2;
-  }
+}
+
 footer hr {
-    border-top: none;   
+    border-top: none;
     border-bottom: 1px solid #666;
 }
 
@@ -105,6 +120,39 @@ footer h5 {
 }
 
 #myCarousel {
-    height: 500px;
+    /* height: 500px; */
     background-color: blueviolet;
 }
+
+/* css for the text showing on the picture */
+/* Change opacity from 0 to 1 */
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* .container:hover .image {
+    opacity: 0.3;
+  }
+   */
+  /* .container:hover .middle { */
+ .img-producdt:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 14px;
+    padding: 14px 28px;
+  }
+  /* feedback stars */
+  .feedback{
+    color:rgb(228, 228, 15);
+  }

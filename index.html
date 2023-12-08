@@ -41,13 +41,13 @@
                     <div class="form-group">
                         <div class="dropdown">
                             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Pages
-                            <span class="caret"></span></button>
+                                <span class="caret"></span></button>
                             <ul class="dropdown-menu">
-                              <li><a href="#">HTML</a></li>
-                              <li><a href="#">CSS</a></li>
-                              <li><a href="#">JavaScript</a></li>
+                                <li><a href="#">HTML</a></li>
+                                <li><a href="#">CSS</a></li>
+                                <li><a href="#">JavaScript</a></li>
                             </ul>
-                          </div>
+                        </div>
                     </div>
                     <button type="submit" class="btn btn-success">Sign in</button>
                 </form>
@@ -58,13 +58,13 @@
 
 
     <!-- ========================================== try ======================================================== -->
- 
+
     <!-- ========================================== try ======================================================== -->
     <!-- <div id="banner" class="container-fluid">top</div> -->
 
 
 
- <!-- ======================================== 👇👇 main 👇👇 ================================================= -->
+    <!-- ======================================== 👇👇 main 👇👇 ================================================= -->
     <!-- ========================================== banner ======================================================== -->
     <!-- Carousel ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -75,8 +75,9 @@
             <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
+            <!-- Item for picture 1 -->
             <div class="item active">
-                <img class="first-slide" src="./image/Optimized-2.jpg" alt="First slide">
+                <img class="first-slide" src="./image/1b.jpg" alt="First slide" width="100%">
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>Example headline.</h1>
@@ -87,8 +88,9 @@
                     </div>
                 </div>
             </div>
+            <!-- Item for picture 2 -->
             <div class="item">
-                <img class="second-slide" src="./image/Optimized-2.jpg" alt="Second slide">
+                <img class="second-slide" src="./image/1a.jpg" alt="Second slide">
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>Another example headline.</h1>
@@ -98,65 +100,160 @@
                     </div>
                 </div>
             </div>
+            <!-- Item for picture 3 -->
             <div class="item">
-                <img class="third-slide" src="./image/Optimized-2.jpg" alt="Third slide">
+                <img class="third-slide" src="./image/1a.jpg" alt="Third slide">
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>One more for good measure.</h1>
                         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
                             gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-                        </div>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
                     </div>
                 </div>
             </div>
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div><!-- /.carousel -->
-        <!-- ========================================== mid ======================================================== -->
-   
+        </div>
+        <!-- button for last picture -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <!-- button for nex picture -->
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div><!-- /.carousel -->
+    <!-- ========================================== mid ======================================================== -->
+
+    <script>
+        function add3Dots(string, limit) {
+            var dots = "...";
+            if (string.length > limit) {
+                // you can also use substr instead of substring
+                string = string.substring(0, limit) + dots;
+            }
+
+            return string;
+        }
+
+    </script>
+
     <div id="mid" class="container">
+        <!-- Row for How Sale Products -->
         <div class="row">
             <h2>Hot Sale</h2>
-            <div class="col-sm-6 col-md-3">
+            <!-- product 1 -->
+            <div class="img-producdt col-sm-6 col-md-3">
                 <a href="#" class="thumbnail">
-                    <img src="./image/Optimized-2.jpg" alt="通用的占位符缩略图">
+                    <img src="./image/Optimized-2.jpg" alt="procduct image">
                 </a>
                 <div class="desription">
-                    Pictures description
+                    <h4>To Kill a Mockingbird</h4>
+                    <p>EUR 20.99</p>
+                    <div class="middle">
+                        <div class="text">John Doe</div>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <!-- product 2 -->
+            <div class="img-producdt col-sm-6 col-md-3">
                 <a href="#" class="thumbnail">
-                    <img src="./image/Optimized-2.jpg" alt="通用的占位符缩略图">
+                    <img src="./image/Optimized-2.jpg" alt="procduct image">
                 </a>
                 <div class="desription">
-                    Pictures description
+                    <h4>To Kill a Mockingbird</h4>
+                    <p>EUR 20.99</p>
+                    <div class="middle">
+                        <div class="text">John Doe</div>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <!-- product 3 -->
+            <div class="img-producdt col-sm-6 col-md-3">
                 <a href="#" class="thumbnail">
-                    <img src="./image/Optimized-2.jpg" alt="通用的占位符缩略图">
+                    <img src="./image/Optimized-2.jpg" alt="procduct image">
                 </a>
                 <div class="desription">
-                    Pictures description
+                    <h4>To Kill a Mockingbird</h4>
+                    <p>EUR 20.99</p>
+                    <div class="middle">
+                        <div class="text">John Doe</div>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <!-- product 4 -->
+            <div class="img-producdt col-sm-6 col-md-3">
                 <a href="#" class="thumbnail">
-                    <img src="./image/Optimized-2.jpg" alt="通用的占位符缩略图">
+                    <img src="./image/Optimized-2.jpg" alt="procduct image">
                 </a>
                 <div class="desription">
-                    Pictures description
+                    <h4>To Kill a Mockingbird</h4>
+                    <p>EUR 20.99</p>
+                    <div class="middle">
+                        <div class="text">John Doe</div>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- Row for How Sale Products -->
+        <div class="row">
+            <h2>Historic</h2>
+            <!-- product 1 -->
+            <div class="img-producdt col-sm-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="./image/Optimized-2.jpg" alt="procduct image">
+                </a>
+                <div class="desription">
+                    <h4>To Kill a Mockingbird</h4>
+                    <p>EUR 20.99</p>
+                    <div class="middle">
+                        <div class="text">John Doe</div>
+                    </div>
+                </div>
+            </div>
+            <!-- product 2 -->
+            <div class="img-producdt col-sm-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="./image/Optimized-2.jpg" alt="procduct image">
+                </a>
+                <div class="desription">
+                    <h4>To Kill a Mockingbird</h4>
+                    <p>EUR 20.99</p>
+                    <div class="middle">
+                        <div class="text">John Doe</div>
+                    </div>
+                </div>
+            </div>
+            <!-- product 3 -->
+            <div class="img-producdt col-sm-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="./image/Optimized-2.jpg" alt="procduct image">
+                </a>
+                <div class="desription">
+                    <h4>To Kill a Mockingbird</h4>
+                    <p>EUR 20.99</p>
+                    <div class="middle">
+                        <div class="text">John Doe</div>
+                    </div>
+                </div>
+            </div>
+            <!-- product 4 -->
+            <div class="img-producdt col-sm-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="./image/Optimized-2.jpg" alt="procduct image">
+                </a>
+                <div class="desription">
+                    <h4>To Kill a Mockingbird</h4>
+                    <p>EUR 20.99</p>
+                    <div class="middle">
+                        <div class="text">John Doe</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 
 
