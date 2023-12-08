@@ -23,6 +23,46 @@
     height: 300px;
 }
 
+#menu-left{
+    height: 200px;
+    background-color: yellow;
+}
+#product-right{
+    height: 200px;
+    background-color: pink;
+}
+#product-image{
+    /* height: 200px; */
+    background-color: rgb(197, 255, 192);
+
+}
+#product-title{
+    /* height: 200px; */
+    background-color: rgb(211, 20, 185);
+
+}
+#product-description{
+    height: 200px;
+    background-color: rgb(20, 33, 211);
+
+}
+#category-menu1{
+    /* height: 200px; */
+    background-color: rgb(20, 211, 68);
+
+}
+#category-products{
+    /* height: 200px; */
+    background-color: rgb(138, 18, 102);
+
+}
+
+
+
+
+
+
+
 /* #mid {
     height: 200px;
 } */
