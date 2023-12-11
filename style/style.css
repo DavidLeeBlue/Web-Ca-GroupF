@@ -1,7 +1,3 @@
-.container1 {
-    background-color: chartreuse;
-    /* height: 300px; */
-}
 
 .container-fluid {
     background-color: rgb(153, 0, 255);
@@ -12,6 +8,7 @@
 .navbar {
     border-radius: 0px;
     margin-bottom: 0px;
+    
 }
 
 #header {
@@ -37,13 +34,13 @@
     background-color: pink;
 }
 
-#product-image {
+#product-image1 {
     /* height: 200px; */
     background-color: rgb(197, 255, 192);
 
 }
 
-#product-title {
+#product-title1 {
     /* height: 200px; */
     background-color: rgb(211, 20, 185);
 
@@ -61,7 +58,7 @@
 
 }
 
-#category-products {
+#category-products1 {
     /* height: 200px; */
     background-color: rgb(138, 18, 102);
 
@@ -92,9 +89,10 @@ footer {
     padding-top: 25px;
     padding-bottom: 1px;
     /* background-color: #202020; */
-    background-color: #d40000;
+    background-color: #241e1e;
     border-top: 1px solid #ddd;
     color: #e2e2e2;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer hr {
